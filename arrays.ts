@@ -11,7 +11,7 @@ const car = carMakers[0];
 const myCar = carMakers.pop();
 
 // Prevent incompatible values
-carMakers.push(100);
+// carMakers.push(100);
 
 // Help with 'map'
 // Type script will give us autocomplete on the variable being passed into the function
@@ -25,4 +25,3 @@ carMakers.map((car: string): string => {
 const importantDates: (Date | string)[] = [new Date()];
 importantDates.push('2030-10-10');
 importantDates.push(new Date());
-importantDates.push(100);
