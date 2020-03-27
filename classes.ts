@@ -1,4 +1,6 @@
 class Vehicle2 {
+  constructor(public color: string) {}
+
   // Child classes can call this method but not from outside the child class or superclass
   protected honk(): void {
     console.log('beep');
@@ -17,7 +19,8 @@ class Car extends Vehicle2 {
   }
 }
 
-const vehicle = new Vehicle2();
+// const vehicle = new Vehicle2();
+// console.log(vehicle.color);
 
-const car = new Car();
-car.startDrivingProcess();
+// const car = new Car();
+// car.startDrivingProcess();
